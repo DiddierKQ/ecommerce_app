@@ -1,7 +1,9 @@
+import 'package:ecommerce_app/screens/signin_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:get/get.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -59,7 +61,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       alignment: Alignment.center,
                       padding: const EdgeInsets.only(bottom: 28),
                       child: const Text(
-                        "Sign In",
+                        "Log In",
                         style: TextStyle(
                           fontSize: 28,
                           fontWeight: FontWeight.bold,
@@ -67,8 +69,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                     ),
                     Container(
-                      padding: const EdgeInsets.only(
-                          left: 8, right: 8, top: 16, bottom: 16),
+                      padding: const EdgeInsets.all(12),
                       child: const TextField(
                         keyboardType: TextInputType.emailAddress,
                         decoration: InputDecoration(
@@ -141,7 +142,9 @@ class _LoginScreenState extends State<LoginScreen> {
                             color: Color(0xFF6f5015),
                           ),
                         ),
-                        onPressed: () {},
+                        onPressed: () {
+                          Get.to(const SigninScreen());
+                        },
                       ),
                     ),
                     Container(
