@@ -32,7 +32,7 @@ class _MainScreenState extends State<MainScreen> {
     return Scaffold(
       backgroundColor: Colors.grey.shade100,
       //drawer: const SidebarWidget(),
-      appBar: AppBarWidget(title: "Coffee shop", enableReturnButton: true,),
+      appBar: AppBarWidget(title: "Coffee shop",),
       body: _screens[_index],
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: const Color(0xFFd2c4a8),

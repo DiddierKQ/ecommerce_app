@@ -1,16 +1,33 @@
-# ecommerce_app
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-A new Flutter project.
+Screenshots
 
-## Getting Started
+[![Screenshot](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture1.JPG)](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture1.JPG)
 
-This project is a starting point for a Flutter application.
+[![Screenshot](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture2.JPG)](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture2.JPG)
 
-A few resources to get you started if this is your first Flutter project:
+[![Screenshot](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture3.JPG)](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture3.JPG)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+[![Screenshot](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture4.JPG)](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture4.JPG)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[![Screenshot](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture5.JPG)](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture5.JPG)
+
+[![Screenshot](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture6.JPG)](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture6.JPG)
+
+[![Screenshot](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture7.JPG)](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture7.JPG)
+
+[![Screenshot](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture8.JPG)](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture8.JPG)
+
+[![Screenshot](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture9.JPG)](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture9.JPG)
+
+[![Screenshot](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture10.JPG)](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture10.JPG)
+
+[![Screenshot](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture11.JPG)](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture11.JPG)
+
+[![Screenshot](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture12.JPG)](https://github.com/DiddierKQ/flutter_multipage_activity/blob/master/assets/screenshots/Capture12.JPG)
+
+<!-- AUTHOR -->
+## Author
+
+* **Diddier Kantun** - *Development and documentation* - [DiddierKantun](https://github.com/DiddierKQ)

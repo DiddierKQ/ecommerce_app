@@ -57,7 +57,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       alignment: Alignment.center,
                       padding: const EdgeInsets.only(bottom: 28),
                       child: const Text(
-                        "Sign In",
+                        "Sign Up",
                         style: TextStyle(
                           fontSize: 28,
                           fontWeight: FontWeight.bold,

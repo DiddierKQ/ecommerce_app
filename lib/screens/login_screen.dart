@@ -56,7 +56,7 @@ class _LogInScreenState extends State<LogInScreen> {
                       alignment: Alignment.center,
                       padding: const EdgeInsets.only(bottom: 28),
                       child: const Text(
-                        "Log In",
+                        "Sign In",
                         style: TextStyle(
                           fontSize: 28,
                           fontWeight: FontWeight.bold,
