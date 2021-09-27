@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const GetMaterialApp(
-      home: LoginScreen(),
+      debugShowCheckedModeBanner: false, // Hide the label "debug" in the corner of the app
+      home: LogInScreen(),
     );
   }
 }

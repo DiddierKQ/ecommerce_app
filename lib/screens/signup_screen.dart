@@ -1,23 +1,24 @@
+import 'package:ecommerce_app/widgets/appbar_widget.dart';
 import 'package:flutter/material.dart';
 
-class SigninScreen extends StatefulWidget {
-  const SigninScreen({Key? key}) : super(key: key);
+import 'package:get/get.dart';
+import 'package:ecommerce_app/screens/main_screen.dart';
+
+class SignUpScreen extends StatefulWidget {
+  const SignUpScreen({Key? key}) : super(key: key);
 
   @override
-  _SigninScreenState createState() => _SigninScreenState();
+  _SignUpScreenState createState() => _SignUpScreenState();
 }
 
-class _SigninScreenState extends State<SigninScreen> {
+class _SignUpScreenState extends State<SignUpScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFd2c4a8),
-      appBar: AppBar(
-        backgroundColor: const Color(0xFF6f5015),
-        title: const Text(
-          "Coffee shop",
-          style: TextStyle(color: Colors.white),
-        ),
+      appBar: AppBarWidget(
+        title: "Create a new account",
+        enableReturnButton: true,
       ),
       body: Center(
         child: Container(
@@ -50,7 +51,7 @@ class _SigninScreenState extends State<SigninScreen> {
               ),
               Expanded(
                 flex: 3,
-                child: Column(
+                child: ListView(
                   children: [
                     Container(
                       alignment: Alignment.center,
@@ -198,7 +199,7 @@ class _SigninScreenState extends State<SigninScreen> {
                           minimumSize: const Size(double.infinity, 60),
                         ),
                         onPressed: () {
-                          
+                          Get.to(const MainScreen());
                         },
                         child: const Text('Create account',
                             style:
@@ -207,7 +208,7 @@ class _SigninScreenState extends State<SigninScreen> {
                     ),
                   ],
                 ),
-              )
+              ),
             ],
           ),
         ),

@@ -1,29 +1,24 @@
-import 'package:ecommerce_app/screens/signin_screen.dart';
+import 'package:ecommerce_app/screens/signup_screen.dart';
+import 'package:ecommerce_app/widgets/appbar_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 
-class LoginScreen extends StatefulWidget {
-  const LoginScreen({Key? key}) : super(key: key);
+class LogInScreen extends StatefulWidget {
+  const LogInScreen({Key? key}) : super(key: key);
 
   @override
-  _LoginScreenState createState() => _LoginScreenState();
+  _LogInScreenState createState() => _LogInScreenState();
 }
 
-class _LoginScreenState extends State<LoginScreen> {
+class _LogInScreenState extends State<LogInScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(  
       backgroundColor: const Color(0xFFd2c4a8),
-      appBar: AppBar(
-        backgroundColor: const Color(0xFF6f5015),
-        title: const Text(
-          "Coffee shop",
-          style: TextStyle(color: Colors.white),
-        ),
-      ),
+      appBar: AppBarWidget(title: "Coffee shop"),
       body: Center(
         child: Container(        
           margin: const EdgeInsets.all(32.0),
@@ -55,7 +50,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               Expanded(
                 flex: 2,
-                child: Column(
+                child: ListView(
                   children: [
                     Container(
                       alignment: Alignment.center,
@@ -143,7 +138,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           ),
                         ),
                         onPressed: () {
-                          Get.to(const SigninScreen());
+                          Get.to(const SignUpScreen());
                         },
                       ),
                     ),
