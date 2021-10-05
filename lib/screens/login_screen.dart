@@ -1,3 +1,4 @@
+import 'package:ecommerce_app/screens/main_screen.dart';
 import 'package:ecommerce_app/screens/signup_screen.dart';
 import 'package:ecommerce_app/widgets/appbar_widget.dart';
 import 'package:flutter/cupertino.dart';
@@ -16,11 +17,11 @@ class LogInScreen extends StatefulWidget {
 class _LogInScreenState extends State<LogInScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(  
+    return Scaffold(
       backgroundColor: const Color(0xFFd2c4a8),
       appBar: AppBarWidget(title: "Coffee shop"),
       body: Center(
-        child: Container(        
+        child: Container(
           margin: const EdgeInsets.all(32.0),
           padding: const EdgeInsets.all(16.0),
           height: 820,
@@ -41,12 +42,12 @@ class _LogInScreenState extends State<LogInScreen> {
               Expanded(
                 flex: 1,
                 child: Container(
-                    padding: const EdgeInsets.all(40),
-                    child: Image.asset(
-                      "assets/icons/coffee-cup.png",
-                      width: 200,
-                    ),
-                    ),
+                  padding: const EdgeInsets.all(40),
+                  child: Image.asset(
+                    "assets/icons/coffee-cup.png",
+                    width: 200,
+                  ),
+                ),
               ),
               Expanded(
                 flex: 2,
@@ -78,13 +79,18 @@ class _LogInScreenState extends State<LogInScreen> {
                                 color: Color(0xFF6f5015), width: 2.0),
                           ),
                           border: OutlineInputBorder(),
-                          label: Text(
-                            "Email address",
-                            style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.grey,
-                            ),
+                          labelText: "Email address",
+                          labelStyle: TextStyle(
+                            fontSize: 20,
+                            color: Colors.grey,
                           ),
+                          // label: Text(
+                          //   "Email address",
+                          //   style: TextStyle(
+                          //     fontSize: 20,
+                          //     color: Colors.grey,
+                          //   ),
+                          // ),
                         ),
                       ),
                     ),
@@ -104,13 +110,18 @@ class _LogInScreenState extends State<LogInScreen> {
                                 color: Color(0xFF6f5015), width: 2.0),
                           ),
                           border: OutlineInputBorder(),
-                          label: Text(
-                            "Password",
-                            style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.grey,
-                            ),
+                          labelText: "Password",
+                          labelStyle: TextStyle(
+                            fontSize: 20,
+                            color: Colors.grey,
                           ),
+                          // label: Text(
+                          //   "Password",
+                          //   style: TextStyle(
+                          //     fontSize: 20,
+                          //     color: Colors.grey,
+                          //   ),
+                          // ),
                         ),
                       ),
                     ),
@@ -121,7 +132,9 @@ class _LogInScreenState extends State<LogInScreen> {
                           backgroundColor: const Color(0xFF6f5015),
                           minimumSize: const Size(double.infinity, 60),
                         ),
-                        onPressed: () {},
+                        onPressed: () {
+                          Get.to(const MainScreen());
+                        },
                         child: const Text('Log in',
                             style:
                                 TextStyle(color: Colors.white, fontSize: 24)),
@@ -148,22 +161,24 @@ class _LogInScreenState extends State<LogInScreen> {
                       child: Row(
                         //crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.center,
-                        children: [                        
+                        children: [
                           InkWell(
                             onTap: () {},
                             child: Container(
-                                padding: const EdgeInsets.all(20.0),
-                                decoration: const BoxDecoration(
-                                  shape: BoxShape.circle,
-                                  color: Color(0xff39579A),
-                                ),
-                                child: const Icon(
-                                  FontAwesomeIcons.facebookF,
-                                  color: Colors.white,
-                                ),
+                              padding: const EdgeInsets.all(20.0),
+                              decoration: const BoxDecoration(
+                                shape: BoxShape.circle,
+                                color: Color(0xff39579A),
+                              ),
+                              child: const Icon(
+                                FontAwesomeIcons.facebookF,
+                                color: Colors.white,
+                              ),
                             ), //
                           ),
-                          const SizedBox(width: 16.0,),
+                          const SizedBox(
+                            width: 16.0,
+                          ),
                           InkWell(
                             onTap: () {},
                             child: Container(
@@ -197,7 +212,7 @@ class _LogInScreenState extends State<LogInScreen> {
                     color: Color(0xFF6f5015),
                   ),
                 ),
-              ),              
+              ),
             ],
           ),
         ),
