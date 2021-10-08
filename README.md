@@ -8,27 +8,27 @@
 ### Screenshots
 
 <p align="left" width="100%">
-    <img width="33%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture1.JPG">
-    <img width="33%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture2.JPG">
-    <img width="33%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture3.JPG">
+    <img width="32%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture1.JPG">
+    <img width="32%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture2.JPG">
+    <img width="32%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture3.JPG">
 </p>
 
 <p align="left" width="100%">
-    <img width="33%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture4.JPG">
-    <img width="33%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture5.JPG">
-    <img width="33%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture6.JPG">
+    <img width="32%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture4.JPG">
+    <img width="32%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture5.JPG">
+    <img width="32%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture6.JPG">
 </p>
 
 <p align="left" width="100%">
-    <img width="33%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture7.JPG">
-    <img width="33%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture8.JPG">
-    <img width="33%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture9.JPG">
+    <img width="32%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture7.JPG">
+    <img width="32%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture8.JPG">
+    <img width="32%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture9.JPG">
 </p>
 
 <p align="left" width="100%">
-    <img width="33%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture10.JPG">
-    <img width="33%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture11.JPG">
-    <img width="33%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture12.JPG">
+    <img width="32%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture10.JPG">
+    <img width="32%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture11.JPG">
+    <img width="32%" src="https://github.com/DiddierKQ/ecommerce_app/blob/master/assets/screenshots/Capture12.JPG">
 </p>
 
 <!-- AUTHOR -->
